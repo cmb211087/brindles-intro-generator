@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Input clips (raw footage - too large for git)
+input/*.mp4
+input/*.mov
+input/*.MP4
+input/*.MOV
+input/*.avi
+input/*.mkv
+
+# Generated intro (regenerated per video)
+output/intro.mp4
